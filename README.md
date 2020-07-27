@@ -4,8 +4,8 @@
 * 项目仅限于个人兴趣和学习用途，如有侵权请[联系作者](xymu1988@163.com)删除。
 
 ## 环境介绍
-> python3.6
-> mysql5.7（可以直接在项目目录下`docker-compose up -d`启动mysql）
+- python3.6
+- mysql5.7（可以直接在项目目录下`docker-compose up -d`启动mysql）
 
 ## 项目介绍
 
