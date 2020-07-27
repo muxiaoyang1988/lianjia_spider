@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+  db:
+    image: "mysql:5.7"
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: "yes"
+      MYSQL_USER: test
+      MYSQL_DATABASE: house
+      MYSQL_PASSWORD: 123456
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+      - --skip-character-set-client-handshake
+    ports:
+      - "3306:3306"
